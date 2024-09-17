@@ -1,0 +1,7 @@
+{
+    "pylint.args": ["--generated-members=cv2.*"],
+    "python.languageServer": "Pylance",
+
+
+}
+
