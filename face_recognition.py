@@ -1,4 +1,4 @@
-
+# The face recognition model
 
 import os
 import cv2 as cv

@@ -1,3 +1,4 @@
+#           This file tests the face_recognition.py model by using it's yml file 
 import numpy as np
 import cv2 as cv
 
