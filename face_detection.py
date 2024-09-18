@@ -26,6 +26,9 @@ print("Coordinates where face exists ", faces_rect)
 print("Number of faces found", len(faces_rect))
 
 # Looping over the list and grabbing the coordinates of the face detected and drawing a rectangle over it 
+# (x, y) is the coordinate of the top-left corner of the rectangle.
+# (x + w, y + h) is the coordinate of the bottom-right corner of the rectangle.
+
 for(x,y,w,h) in faces_rect:
     cv.rectangle(img, (x,y), (x+w,y+h), (0,255,0), thickness=2 )
 
